@@ -1,0 +1,81 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description:
+		"Learn about Linshad, a full-stack developer focused on building modern web applications and exploring software engineering.",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-12">About</h1>
+
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			I'm Linshad, a developer focused on building modern, scalable web applications. My interests
+			lie in full-stack development, problem-solving, and understanding how software works across
+			the entire stack — from intuitive user interfaces to reliable backend systems.
+		</p>
+		<p>
+			My development journey has been driven by continuous learning and hands-on experimentation.
+			Through structured learning and practical projects, I've been developing a strong foundation
+			in web technologies, software architecture, database management, and application development.
+		</p>
+		<p>My technical experience and current areas of focus include:</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>Frontend development with HTML, CSS, JavaScript, Tailwind CSS and React</li>
+			<li>Backend development with Node.js, Express.js and RESTful APIs</li>
+			<li>Database design and management with MongoDB and MySQL</li>
+			<li>TypeScript, object-oriented programming and software design principles</li>
+			<li>Authentication, third-party integrations and payment workflows</li>
+			<li>Application deployment, server configuration and production environments</li>
+		</ul>
+
+		<p>
+			I enjoy turning ideas into functional products and working through the challenges involved in
+			building complete applications. One example is
+			<a
+				class="cactus-link inline-block"
+				href="https://granthae.linshad.xyz/"
+				rel="noreferrer"
+				target="_blank"
+			>
+				GRANTHAE
+			</a>
+			, a peer-to-peer book rental and marketplace platform that I designed and developed. It gave
+			me practical experience working across frontend, backend, database, and payment integration
+			workflows.
+		</p>
+		<p>
+			I'm continuously improving my skills, exploring new technologies, and building projects that
+			strengthen my understanding of software engineering. You can explore my code and projects on
+			<a
+				class="cactus-link inline-block"
+				href="https://github.com/linshadj"
+				rel="noreferrer"
+				target="_blank"
+			>
+				GitHub
+			</a>
+			.
+		</p>
+
+		<h2>Resume</h2>
+
+		<p>
+			Want to know more about my technical background, skills, and experience? You can view or
+			download my resume below.
+		</p>
+
+		<p>
+			<a class="cactus-link inline-block" href="/resume.pdf" target="_blank" rel="noreferrer">
+				View Resume ↗
+			</a>
+			<span class="mx-2">|</span>
+			<a class="cactus-link inline-block" href="/resume.pdf" download="Linshad-Resume.pdf">
+				Download Resume ↓
+			</a>
+		</p>
+	</div>
+</PageLayout>
